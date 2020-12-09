@@ -79,6 +79,6 @@ def webhook():
     send_message(body)
     print ('Hi, Hello Tester')
     print (body)
-    #send_message(body)
+    send_message(body)
     return ("", 205)
 
