@@ -78,6 +78,6 @@ def webhook():
     body = json.loads(request.data)
     print ('Hi, Hello Tester')
     print (body)
-    #send_message(body)
+    send_message(body)
     return ("", 205)
 
